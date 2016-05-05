@@ -6,13 +6,13 @@ var queryName = process.argv[2];
 //console.log(item);
 
 for (name in bt3) {
-		// console.log(bt3[name]);
-		for (item in bt3[name]) {
-			//console.log(bt3[name][item]);
-			if (bt3[name][item] === queryName) {
-				console.log("<--")
-				console.log("The class was belonged to " + chalk.green(name) )
-				console.log("-->")
-			}
+	// console.log(bt3[name]);
+	for (item in bt3[name]) {
+		//console.log(bt3[name][item]);
+		if (bt3[name][item] === queryName) {
+			console.log("<--")
+			console.log("This class was belonged to " + chalk.green(name) )
+			console.log("-->")
 		}
+	}
 }
