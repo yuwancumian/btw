@@ -4,7 +4,7 @@
 
 ```
 btw alert
-\\ This class was belong to alert.css
+\\ This class was belong to alert.less
 
 btw something
 \\ Oops.. this class was not in!
